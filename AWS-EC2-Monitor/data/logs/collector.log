@@ -1,0 +1,1079 @@
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 3, in <module>
+    import boto3
+ModuleNotFoundError: No module named 'boto3'
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+/bin/sh: 1: root: not found
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 70, in collect_ec2_data
+    log_action(f"Collected data for account: {acc_name}")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/collector.py", line 79, in <module>
+    collect_ec2_data()
+    ~~~~~~~~~~~~~~~~^^
+  File "/usr/local/bin/collector.py", line 72, in collect_ec2_data
+    log_action(f"ERROR account {acc_name}", str(e))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/bin/collector.py", line 19, in log_action
+    conn.execute("INSERT INTO logs (action, details) VALUES (?, ?)", (action, details))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+[2026-04-02 09:48:44.226606] Starting EC2 collection...
+Processing: khodam
+WARNING: Failed to log: Collected data for account: khodam
+✅ khodam done
+[2026-04-02 09:55:41.815996] Collection finished.
+[2026-04-02 09:49:11.216723] Starting EC2 collection...
+Processing: khodam
+❌ Error khodam: database is locked
+[2026-04-02 09:55:41.920635] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 10:00:01.873363] Starting EC2 collection...
+Processing: khodam
+WARNING: Failed to log: Collected data for account: khodam
+✅ khodam done
+[2026-04-02 10:07:01.052321] Collection finished.
+[2026-04-02 10:26:45.580563] Starting EC2 collection...
+Processing: global
+❌ Error global: An error occurred (UnauthorizedOperation) when calling the DescribeRegions operation: You are not authorized to perform this operation. User: arn:aws:
+[2026-04-02 10:26:46.563185] Collection finished.
+[2026-04-02 10:26:57.433187] Starting EC2 collection...
+Processing: global
+❌ Error global: An error occurred (UnauthorizedOperation) when calling the DescribeRegions operation: You are not authorized to perform this operation. User: arn:aws:
+[2026-04-02 10:26:58.512431] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 10:27:56.168845] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 10:34:52.966953] Collection finished.
+[2026-04-02 10:30:01.939954] Starting EC2 collection...
+Processing: IT
+❌ Error IT: database is locked
+[2026-04-02 10:34:52.998072] Collection finished.
+[2026-04-02 10:28:03.352527] Starting EC2 collection...
+Processing: IT
+❌ Error IT: database is locked
+[2026-04-02 10:34:53.030836] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 11:00:01.236913] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 11:07:31.264271] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 11:30:01.498098] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 11:37:05.628005] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 12:00:01.837972] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 12:07:08.130466] Collection finished.
+[2026-04-02 15:22:37.413181] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 15:29:34.380708] Collection finished.
+[2026-04-02 15:27:49.353201] Starting EC2 collection...
+Processing: IT
+❌ Error IT: database is locked
+[2026-04-02 15:29:34.426632] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 15:30:01.952577] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 15:37:00.358128] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 16:00:01.565640] Starting EC2 collection...
+Processing: IT
+WARNING: Failed to log: Collected data for account: IT
+✅ IT done
+[2026-04-02 16:06:59.788281] Collection finished.
+/bin/sh: 1: root: not found
+[2026-04-02 16:30:02.008803] Starting EC2 collection...
+Processing: IT
+❌ Error IT: database is locked
+[2026-04-02 16:35:55.590787] Collection finished.
+[2026-04-02 16:46:45.687066] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 16:46:50.217777] Collection finished successfully.
+[2026-04-02 16:46:51.664973] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 16:46:56.149606] Collection finished successfully.
+[2026-04-02 16:48:13.338047] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 16:48:17.761177] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 17:00:01.561761] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 17:00:05.955891] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 17:30:01.281512] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 17:30:06.184611] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 18:00:01.443374] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 18:00:07.133833] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 18:30:01.453632] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 18:30:06.103846] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 19:00:01.336866] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 19:00:07.643096] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 19:30:01.889801] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 19:30:08.849747] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 20:00:02.086504] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 20:00:06.917150] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 20:30:01.162207] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 20:30:06.799116] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 21:00:02.036536] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 21:00:06.745999] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 21:30:01.994043] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 21:30:07.134789] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 22:00:01.370179] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 22:00:05.607026] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 22:30:01.858707] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 22:30:07.361718] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 23:00:01.601393] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 23:00:06.712656] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-02 23:30:01.964070] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-02 23:30:08.164323] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 00:00:01.401629] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 00:00:10.775463] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 00:30:02.020146] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 00:30:09.479349] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 01:00:01.715525] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 01:00:11.352396] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 01:30:01.600081] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 01:30:06.127525] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 02:00:01.364235] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 02:00:10.983643] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 02:30:01.234233] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 02:30:06.751006] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 03:00:01.994546] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 03:00:07.250347] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 03:30:01.490401] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 03:30:06.695564] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 04:00:01.930146] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 04:00:08.905464] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 04:30:01.147974] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 04:30:05.761390] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 05:00:01.994173] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 05:00:07.840998] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 05:30:02.081631] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 05:30:07.375865] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 06:00:01.609496] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 06:00:07.849129] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 06:30:02.094124] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 06:30:06.748626] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 07:00:01.477286] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 07:00:06.757504] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 07:30:02.000419] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 07:30:06.989732] Collection finished successfully.
+/bin/sh: 1: root: not found
+[2026-04-03 08:00:01.234022] Starting EC2 collection...
+Processing account: IT
+✅ IT completed (33 instances)
+[2026-04-03 08:00:07.105264] Collection finished successfully.
